@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VICTORMAC</Machine>
+    <WindowsUser>Víctor</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>593655E937D8D19EB048F1C8CAF5DC4703386122A48B375E0E6C68B529C52A99</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c73881f3-b4c7-401e-b5ce-faf20ea6dc77_1.0.0.0_neutral__40ncg229s632j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c73881f3-b4c7-401e-b5ce-faf20ea6dc77_40ncg229s632j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c73881f3-b4c7-401e-b5ce-faf20ea6dc77</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Víctor</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2012-05-28T17:12:15.042</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\Ahorcado.exe">
+      <PackagePath>Ahorcado.exe</PackagePath>
+      <Modified>2012-05-28T17:12:06.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\Ahorcado.pdb">
+      <PackagePath>Ahorcado.pdb</PackagePath>
+      <Modified>2012-05-28T17:12:06.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2012-05-28T17:09:26.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\LogoA.png">
+      <PackagePath>Assets\LogoA.png</PackagePath>
+      <Modified>2012-05-28T17:09:26.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2012-05-28T17:09:26.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\SmallLogoA.png">
+      <PackagePath>Assets\SmallLogoA.png</PackagePath>
+      <Modified>2012-05-28T17:09:27.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-05-28T17:09:27.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\SplashScreenA.png">
+      <PackagePath>Assets\SplashScreenA.png</PackagePath>
+      <Modified>2012-05-28T17:09:27.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2012-05-28T17:09:27.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\Assets\StoreLogoA.png">
+      <PackagePath>Assets\StoreLogoA.png</PackagePath>
+      <Modified>2012-05-28T17:09:27.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\0.png">
+      <PackagePath>img\0.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\1m.png">
+      <PackagePath>img\1m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\2m.png">
+      <PackagePath>img\2m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\3m.png">
+      <PackagePath>img\3m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\4m.png">
+      <PackagePath>img\4m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\5m.png">
+      <PackagePath>img\5m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\6m.png">
+      <PackagePath>img\6m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\h.png">
+      <PackagePath>img\h.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\img\m.png">
+      <PackagePath>img\m.png</PackagePath>
+      <Modified>2012-05-28T17:09:20.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\Principal.xaml">
+      <PackagePath>Principal.xaml</PackagePath>
+      <Modified>2012-05-28T17:09:20.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-05-28T16:58:54.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\víctor\Dropbox\Visual Studio 2010\Projects\Ahorcado\Ahorcado\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-05-28T17:12:09.941</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

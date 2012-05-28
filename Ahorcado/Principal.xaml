@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="Ahorcado.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ahorcado"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+        <TextBlock x:Name="tbAhorcado" HorizontalAlignment="Left" Height="110" Margin="29,24,0,0" TextWrapping="Wrap" Text="Ahorcado" VerticalAlignment="Top" Width="393" FontSize="72" TextAlignment="Center"/>
+        <Image x:Name="imgAhorcado" HorizontalAlignment="Left" Height="578" Margin="29,158,0,0" VerticalAlignment="Top" Width="393" Source="img/0.png" Stretch="Fill"/>
+        <TextBlock x:Name="tbPalabra" HorizontalAlignment="Left" Height="138" Margin="422,300,0,0" TextWrapping="Wrap" Text="_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _" VerticalAlignment="Top" Width="848" TextAlignment="Center" FontSize="72" d:LayoutOverrides="HorizontalMargin"/>
+        <TextBox x:Name="txtLetra" HorizontalAlignment="Left" Height="137" Margin="808,158,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Width="137" Background="#FF1D1D1D" Foreground="White" BorderBrush="#FF1D1D1D" FontSize="100" TextAlignment="Center" KeyDown="txtLetra_KeyDown" RenderTransformOrigin="0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1074,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Height="34">
+        	<Run Text="Puntos:"/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <TextBlock x:Name="tbPuntos" HorizontalAlignment="Left" Margin="1202,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Height="34" Width="124">
+        	<Run Text="100
+                 "/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <AppBar x:Name="barra" HorizontalContentAlignment="Stretch" Height="136" VerticalAlignment="Bottom" VerticalContentAlignment="Stretch">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="320*"/>
+                    <ColumnDefinition Width="446"/>
+                    <ColumnDefinition Width="97*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="menubar" Orientation="Vertical" Margin="0,14,0,5" Grid.Column="2" HorizontalAlignment="Right">
+                    <Button x:Name="btnJ1" Style="{StaticResource AppBarButtonStyle}"
+                           FontFamily="Segoe UI Symbol" FontSize="18.667" 
+                           Padding="8,8,0,0" Margin="0,0,0,10"
+                           Content="1" Click="btnJ1_Click"/>
+                    <TextBlock Text="Un Jugador" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"/>
+            </Grid>
+        </AppBar>
+        <Rectangle Fill="#FF1D1D1D" HorizontalAlignment="Left" Height="76" Margin="427,636,0,0" Stroke="White" VerticalAlignment="Top" Width="843" Canvas.ZIndex="-1" d:LayoutOverrides="HorizontalMargin"/>
+        <TextBlock x:Name="tbUsadas" HorizontalAlignment="Left" Margin="427,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="76" Width="843" FontSize="65" d:LayoutOverrides="HorizontalMargin"/>
+        <Button x:Name="btnResolver" Content="Resolver" HorizontalAlignment="Left" Height="86" Margin="718,438,0,0" VerticalAlignment="Top" Width="304" FontSize="25" Visibility="Collapsed" Click="btnResolver_Click"/>
+        <Popup x:Name="popupfin" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0.9">
+            <Grid Background="#FF080000" Height="770" Width="1280">
+                <Button Content="Aceptar" HorizontalAlignment="Left" Margin="528,412,0,0" VerticalAlignment="Top" Width="200" Height="80" Click="Button_Click_1"/>
+                <TextBlock x:Name="tbMensaje" HorizontalAlignment="Left" Margin="357,174,0,0" TextWrapping="Wrap" Text="Has perdido, la palabra era otorrinolaringologo" VerticalAlignment="Top" FontSize="48" TextAlignment="Center" />
+            </Grid>
+        </Popup>
+        <Popup x:Name="popupsexo" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid Background="#FF080000" Height="800" Width="1278">
+                <TextBlock HorizontalAlignment="Left" Height="104" Margin="516,52,0,0" TextWrapping="Wrap" Text="¿Qué eres?" VerticalAlignment="Top" Width="568" FontSize="48"/>
+                <Image HorizontalAlignment="Left" Height="526" Margin="56,134,0,0" VerticalAlignment="Top" Width="370" Source="img/0.png"/>
+            </Grid>
+        </Popup>
+
+    </Grid>
+</Page>
